@@ -21,6 +21,7 @@ public class DynamicArrayComplete {
             System.out.println("Enter the value: "+(i+1)+" ;");
             int value=sc.nextInt();
             list.add(value);
+//            mostly used for the dynamic allocation but it size is increase by double or factor so some of field may still empty
         }
         System.out.println(list.get(3));
         for(Integer ar:list){
