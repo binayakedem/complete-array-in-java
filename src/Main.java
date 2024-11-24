@@ -11,11 +11,22 @@ public class Main {
         * 6.multi dimensional array of object
         *
         * */
+//this is complete about the circular array
+        CircularArrayComplete cac=new CircularArrayComplete();
+        cac.circularArrayComplte();
+
+//        this is the sparse array displaying
+        SparseArrayComplete sac=new SparseArrayComplete();
+        sac.sparseArrayComplete();
 
         // dealing with the single dimensional
         SingleArray sa=new SingleArray();
         sa.singleArray();
         Multidimensional ma=new Multidimensional();
         ma.multiDarray();
+
+//        this is for jagged array
+        JaggedArray ja=new JaggedArray();
+        ja.jaggedArray();
     }
 }

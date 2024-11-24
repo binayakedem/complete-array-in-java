@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class SingleArray {
     public void singleArray(){
         Scanner sc=new Scanner(System.in);
+//        single array can hold one dimensinal data with fixed size
         System.out.println("Enter the size of array:");
         int s=sc.nextInt();
         int [] arr=new int[s];
